@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# This is the SSH client configuration file
+Host 54.159.7.74
+User ubuntu
+IdentityFile ~/.ssh/school
+PreferredAuthentications publickey
+PasswordAuthentication no
